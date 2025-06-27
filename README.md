@@ -64,5 +64,5 @@ Supervised by Asst. Prof. Supriya Shivadasan Padmavati
 - The **ARIMA(4,1,1)** time series model was most suitable for **forecasting future deaths**.
 
 ## 📬 Contact
-📧 navya.kamath@gmail.com  
+📧 maynavya@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/navyakamath03)
