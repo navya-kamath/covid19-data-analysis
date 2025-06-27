@@ -52,10 +52,16 @@ Supervised by Asst. Prof. Supriya Shivadasan Padmavati
 - Augmented Dickey-Fuller and Ljung-Box tests used for stationarity checks
 
 ## 🔍 Insights
-- Males (55%) and adults aged 25–64 (54%) had higher infection rates.
-- Pneumonia, hypertension, and diabetes were most common comorbidities.
-- 31% of patients died, 69% survived — survival was slightly higher.
-- Logistic Regression and XGBoost gave strong predictive power for mortality.
+
+- A significantly higher proportion of **males were infected** with COVID-19, suggesting a potential gender-based difference. **Adults and elderly individuals** were at higher risk.
+- A large number of patients experienced **moderate to severe symptoms**, though the need for intensive treatment (like ICU or intubation) was relatively low.
+- The **prevalence of tobacco consumption** among patients was low.
+- Patients with **comorbidities** such as **pneumonia, diabetes, and hypertension** showed higher susceptibility to infection. However, the **majority of respondents survived** the disease.
+- Surprisingly, **health conditions, treatment type, and tobacco consumption** showed **only weak associations with mortality**. In fact, some health conditions were more common among survivors, while **intubation** was higher among the deceased.
+- Patients with health conditions or requiring treatment had a **higher average age**, indicating an age-related trend in disease severity and care needs.
+- The **Multinomial Logistic Regression** model was found to be **ineffective** in classifying symptom severity due to low accuracy.
+- The **Decision Tree classifier** emerged as the **most effective model** for predicting death in COVID-19 patients.
+- The **ARIMA(4,1,1)** time series model was most suitable for **forecasting future deaths**.
 
 ## 📬 Contact
 📧 navya.kamath@gmail.com  
